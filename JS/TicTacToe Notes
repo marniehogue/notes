@@ -1,0 +1,19 @@
+# JavaScript Notes for TicTacToe Game
+
+Working on adding "medium" and "hard intelligence" levels for [my TicTacToe Game] (https://github.com/marniehogue/projects/blob/master/TicTacToe_AI_Round%202)
+
+Here’s my basic outline – player goes first or computer goes first depending on chance.
+-Player Goes
+-Computer Goes
+	If level = “easy” 
+Then random move 
+	If level = “medium”
+		checks if can make winning move or blocking move
+		if not, then random move
+	If level = “hard” (still need to add this code)
+If computer goes first, the computer’s first move is placed strategically 
+(in either the center or corners)
+		If computer goes second, computer places a move based on player’s first move
+			(still need to figure out this part)
+		In all remaining moves, computer checks for winning move or blocking move
+		If not, then random move
